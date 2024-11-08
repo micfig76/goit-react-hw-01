@@ -1,7 +1,6 @@
 .slate {
     display: flex;
     flex-direction: column;
-
     align-items: center;
     border: #222 solid;
     border-radius: 8px;
@@ -13,16 +12,6 @@
     font-family: "Urbanist", sans-serif;
     margin-top: 40px;
     margin-bottom: 40px;
-}
-
-.avatar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    background-color: #222;
 }
 
 .personal {
@@ -38,6 +27,16 @@
     font-weight: bold;
 }
 
+.avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #222;
+}
+
 .nick {
     font-size: 30px;
     color: #777;
@@ -50,8 +49,6 @@
     margin: 0 auto;
 }
 
-
-
 .changables {
     display: flex;
     align-items: center;
@@ -60,11 +57,9 @@
     padding: 0;
     margin: 0;
     font-size: 30px;
-
     width: 500px;
     background-color: #777;
     border-radius: 0 0 6px 6px;
-
 }
 
 .follow, .view, .like {
@@ -91,8 +86,4 @@
 .like {
     margin: 2px 0 0 0;
     border-radius: 0 0 6px 0;
-}
-
-.val {
-    font-weight: bold;
 }
