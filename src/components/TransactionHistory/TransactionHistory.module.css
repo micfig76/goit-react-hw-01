@@ -1,3 +1,41 @@
+.account {
+    display: flex;
+    justify-content: center;
+}
+
 .type {
     text-transform: capitalize;
+}
+
+table {
+    width: 100%;
+    max-width: 700px;
+    min-width: 600px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    table-layout: fixed;
+    font-family: "Urbanist", sans-serif;
+    font-size: 18px;
+}
+
+th, td {
+    padding: 8px;
+    border: 2px solid black;
+    width: 33.33%;
+    text-align: center;
+}
+
+td:first-child {
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 70px;
+}
+
+tr:nth-child(even) {
+    background-color: #c2c1c1;
+}
+
+th {
+    background-color: #222;
+    color: white;
 }
