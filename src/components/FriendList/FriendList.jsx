@@ -2,9 +2,9 @@ import css from "./FriendList.module.css";
 
 function FriendListItem({ avatar, name, isOnline }) {
   return (
-    <div>
-      <img src={avatar} alt="Avatar" width="48" />
-      <p>{name}</p>
+    <div className={css.smallSlate}>
+      <img className={css.pic} src={avatar} alt="Avatar" width="48" />
+      <p className={css.nick}>{name}</p>
 
       {isOnline ? (
         <p className={css.green}>Online</p>
@@ -14,13 +14,6 @@ function FriendListItem({ avatar, name, isOnline }) {
     </div>
   );
 }
-
-// {
-//     "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
-//     "name": "Mango",
-//     "isOnline": true,
-//     "id": 1812
-//   }
 
 export default function FriendList({ friends }) {
   return (
