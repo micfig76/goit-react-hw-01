@@ -1,10 +1,98 @@
-.red {
-    color: red;
+.slate {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    border: #222 solid;
+    border-radius: 8px;
+    max-width: 500px;
+    max-height: 1400px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-family: "Urbanist", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     background-color: #222;
+}
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.profileName {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nick {
+    font-size: 30px;
+    color: #777;
+    margin: 0 auto;
+}
+
+.loco {
+    font-size: 30px;
+    color: #777;
+    margin: 0 auto;
+}
+
+
+
+.changables {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+
+    width: 500px;
+    background-color: #777;
+    border-radius: 0 0 6px 6px;
+
+}
+
+.follow, .view, .like {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #d5d4d4;
+    height: 58px;
+}
+
+.view {
+    margin: 2px 2px 0 2px;
+}
+
+.follow {
+    margin: 2px 0 0 0;
+    border-radius: 0 0 0 6px;
+}
+
+.like {
+    margin: 2px 0 0 0;
+    border-radius: 0 0 6px 0;
+}
+
+.val {
+    font-weight: bold;
 }
